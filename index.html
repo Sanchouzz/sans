@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Лаба 1</title>
     
 </head>
@@ -116,16 +117,18 @@
         <section>
             <h2>Make an appointment</h2>
             <form>
-                <input type="text" placeholder="Full name" id="Fullname"><label for="Fullname"></label>
-                <input type="text" placeholder="example@gmail.com" id="example@gmail.com"><label for="example@gmail.com"></label>
-                <select name="Please select" id="ch1">
+                <label for="Fullname">Fullname<input type="text" placeholder="Full name" id="Fullname"></label>
+                <label for="example@gmail.com">Email<input type="text" placeholder="example@gmail.com" id="example@gmail.com"></label>
+                <label for="ch1">Please select<select name="Please select" id="ch1">
                     <option value=" 1">Пункт 1</option>
                     <option value=" 2">Пункт 2</option>
-                </select>    
-                <select name="4:00 Available" id="ch2">
+                </select> 
+                </label>    
+                <label for="ch2">4:00 Available<select name="4:00 Available" id="ch2">
                     <option value="time1">6:00</option>
                     <option value="time2">12:00</option>
                 </select>
+                </label>
                 <textarea name="message" id="mes1" cols="30" rows="10"></textarea>
                 <button>Book Appointment</button>
             </form>
@@ -175,7 +178,7 @@
         </ul>
         <h3>Get in Touch</h3>
         <form>
-        <input type="text" placeholder="Your Email" id="mail"><label for="mail"></label>
+        <label for="mail">Mail<input type="text" placeholder="Your Email" id="mail"></label>
         <button>Subcribe</button>
         </form>
         <p>Lorem ipsum dolor sit.</p>
