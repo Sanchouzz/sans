@@ -4,180 +4,223 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Лаба 1</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <a href="">Consultal</a>
-        <button><img src="img/serch.svg" alt="поиск" width="24" height="24"></button>
-        <button><img src="img/box.svg" alt="корзина" width="24" height="24"></button>
-        <button><img src="img/menu.svg" alt="меню" width="24" height="24"></button>
+        <a href="" id="link_one">Consultal</a>
+        <button class="menu"><img src="img/serch.svg" alt="поиск" width="24" height="24" id="img1" ></button>
+        <button class="menu"><img src="img/box.svg" alt="корзина" width="24" height="24" ></button>
+        <button class="menu"><img src="img/menu.svg" alt="меню" width="24" height="24" ></button>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="spisok1">Home</a></li>
+                <li><a href="#" class="spisok1">Product</a></li>
+                <li><a href="#" class="spisok1">Pricing</a></li>
+                <li><a href="#" class="spisok1">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="sek1">
              <h1>First class Business Consultant</h1>
              <p>We know how large 
                 objects will act, but things 
                 on a small scale just do 
                 not act that way.</p>
-             <button>
+             <button id="but_gqn">
                 Get Quote Now
              </button> 
-             <a href="#"> Lear more</a>
+             <a href="#" id="learn_more"> Learn more</a>
         </section>
-        <section>
+        <section class="sek2">
             <h2>Industry</h2>
-            <p>Problems trying .....</p>
+            <p>Problems trying to resolve the<br> 
+                conflict between the two major realms of<br> 
+                Classical physics: Newtonian mechanics </p>
             <ul>
                 <li>
-                    <img src="img/Case.svg" alt="чемодан">
-                    <h3>Business & Finance</h3>
-                    <p>the quick fox jumps over the lazy 
-                        dog the quick fox jumps over the 
+                    <div class="card">
+                        <img src="img/Case.svg" alt="чемодан">
+                        <h3>Business & Finance</h3>
+                    </div>
+                    <p>the quick fox jumps over the lazy <br> 
+                        dog the quick fox jumps over the <br>
                         lazy dog </p>
                 </li>
                 <li>
-                    <img src="img/Shop.svg" alt="продукты">
-                    <h3>Consumer Products</h3>
-                    <p>the quick fox jumps over the lazy 
-                        dog the quick fox jumps over the 
-                        lazy dog</p>
+                    <div class="card">
+                        <img src="img/Shop.svg" alt="продукты">
+                        <h3>Consumer Products</h3>
+                    </div>
+                    <p>the quick fox jumps over the lazy <br> 
+                        dog the quick fox jumps over the <br>
+                        lazy dog </p>
+                    
                 </li>
                 <li>
-                    <img src="img/Note.svg" alt="книга">
-                    <h3>Environment</h3>
-                    <p>the quick fox jumps over the lazy 
-                        dog the quick fox jumps over the 
-                        lazy dog</p>
+                    <div class="card">
+                        <img src="img/Note.svg" alt="книга">
+                        <h3>Environment</h3>
+                    </div>
+                    <p>the quick fox jumps over the lazy <br> 
+                        dog the quick fox jumps over the <br>
+                        lazy dog </p>
                 </li>
                 <li>
-                    <img src="img/Users.svg" alt="настройки">
-                    <h3>Business & Finance</h3>
-                    <p>the quick fox jumps over the lazy 
-                        dog the quick fox jumps over the 
-                        lazy dog</p>
+                    <div class="card">
+                        <img src="img/Users.svg" alt="настройки">
+                        <h3>Business & Finance</h3>
+                    </div>
+                    <p>the quick fox jumps over the lazy <br> 
+                        dog the quick fox jumps over the <br>
+                        lazy dog </p>
                 </li>
                 <li>
-                    <img src="img/Vector.svg" alt="конс продукты">
-                    <h3>Consumer Products</h3>
-                    <p>the quick fox jumps over the lazy 
-                        dog the quick fox jumps over the 
-                        lazy dog</p>
+                    <div class="card">
+                        <img src="img/Vector.svg" alt="конс продукты">
+                        <h3>Consumer Products</h3>
+                    </div>
+                    <p>the quick fox jumps over the lazy <br> 
+                        dog the quick fox jumps over the <br>
+                        lazy dog </p>
                 </li>
                 <li>
-                    <img src="img/Reward.svg" alt="награды">
-                    <h3>Invaironment</h3>
-                    <p>the quick fox jumps over the lazy 
-                        dog the quick fox jumps over the 
-                        lazy dog</p>
+                    <div class="card">
+                        <img src="img/Reward.svg" alt="награды">
+                        <h3>Invaironment</h3>
+                    </div>
+                    <p>the quick fox jumps over the lazy <br> 
+                        dog the quick fox jumps over the <br>
+                        lazy dog </p>
                 </li>
              </ul>
         </section>
-        <section>
+        <section class="sek3">
             <h2>Who we are</h2>
-            <p>Problems trying to resolve...</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/o8lYHShgf08" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Problems trying to resolve <br> 
+                the conflict between the <br>
+                two major realms of Classical <br>
+                physics: Newtonian mechanics </p>
+            <iframe width="306" height="442" src="https://www.youtube.com/embed/o8lYHShgf08" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>  
-        <section>
+        <section class="sek4">
             <h2>What Clients Say</h2>
-            <p>Problems trying to resolve...</p>
-            <img src="img/stars.png" alt="рейтинг">
-            <blockquote>
-                <p>Slate helps you see how many more days...</p>
-            </blockquote>
-            <img src="img/womancl.png" alt="клиент 1">
-            <p>Regina Miles</p>
-            <p>Designer</p>
-            <img src="img/stars.png" alt="рейтинг">
-            <blockquote>
-                <p>Slate helps you see how many more days...</p>
-            </blockquote>
-            <img src="img/womancl.png" alt="клиент 1">
-            <p>Regina Miles</p>
-            <p>Designer</p>
-            <img src="img/stars.png" alt="рейтинг">
-            <blockquote>
-                <p>Slate helps you see how many more days...</p>
-            </blockquote>
-            <img src="img/womancl.png" alt="клиент 1">
-            <p>Regina Miles</p>
-            <p>Designer</p>
+            <p id="sek4_problems">Problems trying to resolve <br>
+                the conflict between the two major <br>
+                realms of Classical physics: <br>
+                Newtonian mechanics </p>
+            <div class="comment">
+                <img src="img/stars.png" alt="рейтинг">
+                <blockquote>
+                    <p>Slate helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal.</p>
+                </blockquote>
+                <div class="Autor">
+                    <img src="img/womancl.png" alt="клиент 1">
+                    <div><p class="p_client">Regina Miles</p>
+                    <p>Designer</p></div>
+                </div>
+            </div>
+            <div class="comment">
+                <img src="img/stars.png" alt="рейтинг">
+                <blockquote>
+                    <p>Slate helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal.</p>
+                </blockquote>
+                <div class="Autor">
+                    <img src="img/womancl.png" alt="клиент 1">
+                    <div><p class="p_client">Regina Miles</p>
+                    <p>Designer</p></div>
+                </div>
+            </div>
+            <div class="comment">
+                <img src="img/stars.png" alt="рейтинг">
+                <blockquote>
+                    <p>Slate helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal.</p>
+                </blockquote>
+                <div class="Autor">
+                    <img src="img/womancl.png" alt="клиент 1">
+                    <div><p class="p_client">Regina Miles</p>
+                    <p>Designer</p></div>
+                </div>
+            </div>
         </section>
-        <section>
+        <section class="sek5">
             <h2>Make an appointment</h2>
             <form>
-                <label for="Fullname">Fullname<input type="text" placeholder="Full name" id="Fullname"></label>
-                <label for="example@gmail.com">Email<input type="text" placeholder="example@gmail.com" id="example@gmail.com"></label>
-                <label for="ch1">Please select<select name="Please select" id="ch1">
+                <input type="text" placeholder="Full name" id="Fullname">
+                <input type="text" placeholder="example@gmail.com" id="example@gmail.com">
+                <select name="Please select" id="ch1">
                     <option value=" 1">Пункт 1</option>
                     <option value=" 2">Пункт 2</option>
-                </select> 
-                </label>    
-                <label for="ch2">4:00 Available<select name="4:00 Available" id="ch2">
+                </select>   
+                <select name="4:00 Available" id="ch2">
                     <option value="time1">6:00</option>
                     <option value="time2">12:00</option>
                 </select>
-                </label>
                 <textarea name="message" id="mes1" cols="30" rows="10"></textarea>
-                <button>Book Appointment</button>
+                <button class="last_buttons">Book Appointment</button>
             </form>
-                <h2>Consulting Agency 
-                For Your Business</h2>
-            <p>the quick fox jumps over 
-                the lazy dog</p>
-            <button>Contact Us</button>
+            <div><h2 class="h2_type2">Consulting Agency <br>
+                    For Your Business</h2>
+                <p>the quick fox jumps over <br> 
+                    the lazy dog</p>
+            </div>
+            <div id="last_div"><button class="last_buttons">Contact Us</button></div>
         </section>
     </main>
     <footer>
-        <h2>Concultal</h2>
-        <a href="#"> <img src="img/F.svg" alt="фейсбук"></a>
-        <a href="#"> <img src="img/Inst.svg" alt="инстаграмм"></a>
-        <a href="#"> <img src="img/twitter.svg" alt="твитер"></a>
-        <a href="#"> <img src="img/youtube.svg" alt="ютуб"></a>
+        <h2 class="h2_type2">Concultal</h2>
+        <div id="fot1">
+            <a href="#"> <img src="img/F.svg" alt="фейсбук"></a>
+            <a href="#"> <img src="img/Inst.svg" alt="инстаграмм"></a>
+            <a href="#"> <img src="img/twitter.svg" alt="твитер"></a>
+            <a href="#"> <img src="img/youtube.svg" alt="ютуб"></a>
+        </div>
 
-        <h3>Company info</h3>
-        <ul>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Carrier</a></li>
-        <li><a href="#">We are hiring</a></li>
-        <li><a href="#">Blog</a></li>
-        </ul>
-        <h3>Legal</h3>
-        <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Carrier</a></li>
-            <li><a href="#">We are hiring</a></li>
-            <li><a href="#">Blog</a></li>
-        </ul>
-        <h3>Features</h3>
-        <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Carrier</a></li>
-            <li><a href="#">We are hiring</a></li>
-            <li><a href="#">Blog</a></li>
-        </ul>
-        <h3>Resorces</h3>
+        <div id="fot"><h3>Company info</h3>
          <ul>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Carrier</a></li>
-                <li><a href="#">We are hiring</a></li>
-                <li><a href="#">Blog</a></li>
-        </ul>
-        <h3>Get in Touch</h3>
-        <form>
-        <label for="mail">Mail<input type="text" placeholder="Your Email" id="mail"></label>
-        <button>Subcribe</button>
-        </form>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Carrier</a></li>
+            <li><a href="#">We are hiring</a></li>
+            <li><a href="#">Blog</a></li>
+         </ul>
+            <h3>Legal</h3>
+            <ul>
+             <li><a href="#">About us</a></li>
+             <li><a href="#">Carrier</a></li>
+             <li><a href="#">We are hiring</a></li>
+             <li><a href="#">Blog</a></li>
+            </ul>
+            <h3>Features</h3>
+            <ul>
+             <li><a href="#">About us</a></li>
+             <li><a href="#">Carrier</a></li>
+             <li><a href="#">We are hiring</a></li>
+             <li><a href="#">Blog</a></li>
+            </ul>
+            <h3>Resorces</h3>
+            <ul>
+             <li><a href="#">About us</a></li>
+             <li><a href="#">Carrier</a></li>
+             <li><a href="#">We are hiring</a></li>
+             <li><a href="#">Blog</a></li>
+            </ul>
+            <h3>Get in Touch</h3>
+            <form>
+            <label for="mail">Mail<input type="text" placeholder="Your Email" id="mail"></label>
+            <button id="butf">Subcribe</button>
+            </form>
         <p>Lorem ipsum dolor sit.</p>
+    </div>
 </footer>
 </body>
 </html>
